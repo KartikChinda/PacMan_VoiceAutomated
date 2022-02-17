@@ -1,0 +1,156 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 560px;
+  height: 560px;
+  border: solid black;
+  margin: auto;
+  margin-top: 0;
+}
+
+body {
+  background-color: #000000;
+  text-align: center;
+  align-content: center;
+  /* transform: scale(0.85); */
+}
+
+.pac-dot {
+  background-color: #FFC947;
+  border: 6px solid #000000;
+  border-radius: 100px;
+  box-sizing: border-box;
+  z-index: -1;
+}
+
+.blinky, .pinky, .inky, .clyde {
+  border: 0;
+  border-radius: 0;
+  background-color: black;
+}
+
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.blinky {
+  background-image: url('images/blinky.png');
+  border: 0;
+  z-index: +2;
+}
+
+.pinky {
+  background-image: url('images/pinky.png');
+  border: 0;
+  z-index: +2;
+}
+
+.inky {
+  background-image: url('images/inky.png');
+  border: 0;
+  z-index: +2;
+}
+
+.clyde {
+  background-image: url('images/clyde.png');   
+  border: 0;
+  z-index: +2; 
+}
+
+.pac-man-left {
+  background-image: url('images/pacman.png');  
+  border-radius: 10px;
+  transform: rotate(180deg);
+}
+
+.pac-man-right {
+  background-image: url('images/pacman.png');  
+  border-radius: 10px;
+}
+
+.pac-man-up {
+  background-image: url('images/pacman.png');  
+  border-radius: 10px;
+  transform: rotate(270deg);
+}
+
+.pac-man-down {
+  background-image: url('images/pacman.png');  
+  border-radius: 10px;
+  transform: rotate(90deg);
+}
+
+.scared-ghost {
+  background-color: aquamarine;
+  
+}
+
+/* .scared-ghost::after {
+  position: absolute;
+  inset: 0;
+  background-color: red;
+} */
+
+
+
+img {
+    z-index: 3;
+}
+
+.wall {
+    background-color: #242222;
+}
+
+.power-pellet {
+    background-color: greenyellow;
+    border-radius: 10px;
+}
+
+.pac-man {
+    background-image: url('images/pacman.png');
+    border-radius: 10px;
+}
+
+.container {
+  margin-top: -5px;
+}
+
+#score {
+    color: #F4F4F4;
+    text-align: center;
+}
+
+h3 {
+    color: #F4F4F4;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+h1 {
+    color: #F4F4F4;
+    font-size: 3rem;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+h4 {
+    color: #F4F4F4;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.89rem; 
+    text-align: center; 
+}
+
+#start {
+ 
+    background-color: #F4F4F4;
+    font-family: 'Press Start 2P', cursive;
+    margin: 40px 30px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-align: center;
+    border: 5px solid #424040;
+    
+
+}
