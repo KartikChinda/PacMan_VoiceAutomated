@@ -390,7 +390,7 @@ function checkPellets() {
 }
 
 var alanBtnInstance = alanBtn({
-    key: "a39927584c4182045d71c0162692acfb2e956eca572e1d8b807a3e2338fdd0dc/stage",
+    key: "Enter your own key here",
     onCommand: function (commandData) {
         if (commandData.command === "go:back") {
             //call client code that will react on the received command
